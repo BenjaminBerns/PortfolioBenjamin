@@ -357,12 +357,74 @@ textarea{
 
 /*******************************************************Stage**********************************************************/
 .title{
-    left: 75px;
-    top: -150px;
+    left: 150px;
+    top: 150px;
     position: absolute;
     font-size: 50px;
 }
 
+.rapport{
+    font-size: 20px;
+    position: absolute;
+    top: 32vh;
+    left: 12vw;
+    color: #239aef;
+}
+
+.annexe1{
+    font-size: 20px;
+    position: absolute;
+    top: 36vh;
+    left: 12vw;
+    color: #239aef;
+}
+
+.annexe2{
+    font-size: 20px;
+    position: absolute;
+    top: 40vh;
+    left: 12vw;
+    color: #239aef;
+}
+
+.imgD{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    left: 10vw;
+    top: 500px;
+}
+
+.title2{
+    right: 150px;
+    top: 150px;
+    position: absolute;
+    font-size: 50px;
+}
+
+.rapport2{
+    font-size: 20px;
+    position: absolute;
+    top: 32vh;
+    right: 12vw;
+    color: #239aef;
+}
+
+.annexe3{
+    font-size: 20px;
+    position: absolute;
+    top: 36vh;
+    right: 12vw;
+    color: #239aef;
+}
+
+.imgGl{
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    right: 10vw;
+    top: 500px;
+}
 
 /********************************************************Formations****************************************************/
 
