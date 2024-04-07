@@ -462,3 +462,72 @@ tbody tr, td, th{
 }
 
 /********************************************************contact****************************************************/
+/********************************************************Projets****************************************************/
+.P1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 600px;
+    width: 400px;
+}
+
+.imgBasket{
+    position: absolute;
+    left: -150px;
+    height: 200px;
+    width: 400px;
+}
+
+.download1{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+}
+
+.P2{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    height: 600px;
+    width: 400px;
+}
+
+.imgA{
+    position: absolute;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+}
+
+.download1{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+}
+
+.P3{
+    position: absolute;
+    top: 200px;
+    left: 1400px;
+    height: 600px;
+    width: 400px;
+}
+
+.imgC{
+    position: absolute;
+    left: 0px;
+    height: 200px;
+    width: 200px;
+}
+
+.download1{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+}
