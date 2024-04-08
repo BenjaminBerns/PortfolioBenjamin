@@ -418,12 +418,28 @@ textarea{
     color: #239aef;
 }
 
+.annexe4{
+    font-size: 20px;
+    position: absolute;
+    top: 40vh;
+    right: 12vw;
+    color: #239aef;
+}
+
 .imgGl{
     position: absolute;
     height: 100px;
     width: 500px;
     right: 10vw;
     top: 500px;
+}
+
+.tableauS{
+    font-size: 30px;
+    position: absolute;
+    top: 80vh;
+    right: 42vw;
+    color: #239aef;
 }
 
 /********************************************************Formations****************************************************/
