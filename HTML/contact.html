@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Benjamin Berns</title>
+    <link rel="stylesheet" type="text/css" href="Public/CSS/style.css">
+    <link rel="shortcut icon" href="Public/IMG/prog.png" type="image/x-icon">
+</head>
+<body>
+
+    <h1 class="portfolio">Portfolio</h1>
+
+    <div class="display">
+        <a class="accueil" href="index.html">Accueil</a>
+        <a class="loisirs" href="loisirs.html">Loisirs</a>
+        <a class="formations" href="formations.html">Formations</a>
+        <a class="competences" href="competences.html">Compétences</a>
+        <a class="stage" href="stage.html">Stage</a>
+        <a class="contact" href="contact.html">Contact</a>
+    </div>
+
+    <img src="Public/IMG/Un-developeur-web-scaled.webp" alt="" class="developpeur">
+
+    <div class="formulaire">
+        <form method="Post" action="Traitement.php">
+
+            <label for="Pseudo">Prenom : </label>
+            <input id="Pseudo" type="text" name="nom" required/>
+            <br>
+
+            <label for="mail">Courriel : </label>
+            <input id="mail" type="email" name="mail" required placeholder="Utilisateur@domaine.fr"/>
+            <br>
+
+            <textarea placeholder="entrez votre demande ici..." id="" cols="30" rows="10"></textarea>
+            <br>
+
+            <input type="submit" class="valider" value="VALIDER" />
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <p class="txt_footer">
+            Copyright © / BenjaminDev@e.mail.fr
+        </p>
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="Public/contact.js"></script>
+</body>
+</html>
