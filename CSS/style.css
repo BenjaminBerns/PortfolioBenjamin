@@ -203,6 +203,7 @@ a{
 }
 
 .footer{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -812,17 +813,24 @@ a{
     }
     
     .footer{
-        position: absolute;
+        position: fixed;
+        height: 4%;
+        font-size: 60%;
     }
 
     .portfolio{
         font-size: 0px;
     }
     .presentations{
-        top: 350px;
         left: 60px;
-        width: 300px;
+        width: 75%;
         font-size: 20px;
+    }
+
+    .txt_presentations{
+        position: absolute;
+        top: 0;
+        font-size: 75%;
     }
 
     .prenom{
@@ -835,19 +843,19 @@ a{
         transition: 0.4s all ease-in-out;
         position: absolute;
         border-radius: 30px;
-        top: 120px;
+        top: 20%;
         left: 70px;
         height: 160px;
-        width: 250px;
+        width: calc(70% - 2rem);
         filter: drop-shadow(10px 10px 15px #191919);
     }
     
     .bck_img{
         position: absolute;
         height: 160px;
-        width: 250px;
+        width: calc(70% - 2rem);
         border-radius: 30px;
-        top: 150px;
+        top: 25%;
         left: 100px;
         z-index: -1;
         background: #4b52ba;
@@ -855,10 +863,10 @@ a{
 
     .hcj{
         position: absolute;
-        height: 20px;
-        width: 50px;
-        top: 4.5%;
-        left: 77%;
+        height: 40px;
+        width: 100px;
+        top: 13%;
+        left: 35%;
         transform: translateY(-100%);
         overflow: hidden;
         z-index: -2;
