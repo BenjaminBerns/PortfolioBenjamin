@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Century Gothic", serif;
+    scroll-behavior: smooth;
 }
 
 ::selection{
@@ -275,11 +276,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     background: linear-gradient(0deg, rgba(160,161,160,1) 0%, rgba(206,208,206,1) 100%);
     width: 100%;
     height: 70px;
-    top: 434.75%;
+    bottom: 0;
     left: 0;
     transition: 0.8s all ease-in;
 }
@@ -425,10 +426,11 @@ a{
 .gif_r{
     z-index: -1;
     position: absolute;
-    height: 80%;
-    width: 50%;
+    height: 180%;
+    width: 120%;
     margin: 100px;
-    right: 0;
+    left: 700px;
+    top: -100px;
 }
 
 .medaille{
@@ -863,8 +865,8 @@ a{
 
     .hcj{
         position: absolute;
-        height: 40px;
-        width: 100px;
+        height: 0;
+        width: 0;
         top: 13%;
         left: 35%;
         transform: translateY(-100%);
