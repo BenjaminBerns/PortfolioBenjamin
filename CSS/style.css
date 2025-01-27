@@ -1081,11 +1081,29 @@ a{
     }
 
     .container_move{
-        flex-direction: column;
+        flex-direction: row;
         left: -10%;
         position: absolute;
     }
-    
+
+    .container_move{
+        position: absolute;
+        left: 0;
+        top: 400px;
+        width: 100%;
+        height: 400px;
+        flex-wrap: wrap ;
+    }
+ 
+    .container_move .i1, .i2, .i3, .i4, .i5{
+        height: 150px;
+        width: 150px;
+    }
+
+    .container_move .i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover{
+        height: 160px;
+        width: 160px;
+    }
 }
 
 
